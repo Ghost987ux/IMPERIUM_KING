@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.center-box {
+  text-align: center;
+  background: #111;
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.logo-line svg {
+  display: block;
+  margin: 0 auto 15px;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
+}
+
+.brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+  color: #d4af37;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.links a {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #d4af37;
+  color: #000;
+  transform: scale(1.03);
+}
